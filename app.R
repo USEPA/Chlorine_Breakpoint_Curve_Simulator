@@ -696,7 +696,7 @@ ui <- shinyUI(fluidPage(theme = shinytheme("flatly"),
        </div>
        <div class='block block-pane block-pane-epa-web-area-connect' id='block-pane-epa-web-area-connect'>
        <ul class='menu utility-menu'>
-       <li class='menu-item'><a class='menu-link' href='https://www.epa.gov/home/forms/contact-epa'>Contact Us</a></li>
+       <li class='menu-item'><a class='menu-link' href='https://www.epa.gov/water-research/forms/contact-us-about-water-research'>Contact Us</a></li>
        </ul>
        </div>
        </div>
@@ -731,15 +731,13 @@ ui <- shinyUI(fluidPage(theme = shinytheme("flatly"),
   ),
 
   p("The application was developed by the United States Environmental Protection Agency (EPA). No warranty expressed or implied is made regarding the accuracy
-    or utility of the system, nor shall the act of distribution constitute any such warranty.  EPA has relinquished
-    control of the information and no longer has responsibility to protect the integrity, confidentiality or availability
-    of the information.  Any reference to specific commercial products, processes, or services by service mark,
+    or utility of the system, nor shall the act of distribution constitute any such warranty. Any reference to specific commercial products, processes, or services by service mark,
     trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by
     EPA. The EPA seal and logo shall not be used in any manner to imply endorsement of any commercial product or activity
-    by EPA or the United States Government.  This application has been reviewed in accordance with EPA policy
+    by EPA or the United States Government. This application has been reviewed in accordance with EPA policy
     and has been approved for external and free use. The views expressed in this application do not necessarily represent the views
     or policies of the Agency. Although a reasonable effort has been made to assure that the results obtained are correct,
-    this application is experimental.  Therefore, the author and the EPA are not responsible and assume no liability whatsoever
+    this application is experimental. Therefore, the author and the EPA are not responsible and assume no liability whatsoever
     for any results or any use made of the results obtained from this application, nor for any damages or litigation that result
     from the use of the application for any purpose."),
   hr(),
@@ -760,7 +758,7 @@ ui <- shinyUI(fluidPage(theme = shinytheme("flatly"),
 
 ####Additional required contact section########################################################################################################################
 hr(),
-p( a(href="https://www.epa.gov/home/forms/contact-epa", "Contact Us"),
+p( a(href="https://www.epa.gov/water-research/forms/contact-us-about-water-research", "Contact Us"),
    " to ask a question, provide feedback, or report a problem."),
 
 ####Added from EPA template####################################################################################################################################
@@ -811,7 +809,7 @@ HTML("</div>
      Ask.
      </div>
      <ul class='menu'>
-     <li><a href='https://www.epa.gov/home/forms/contact-us'>Contact Us</a></li>
+     <li><a href='https://www.epa.gov/home/forms/contact-epa'>Contact Us</a></li>
      <li><a href='https://www.epa.gov/home/epa-hotlines'>Hotlines</a></li>
      <li><a href='https://www.epa.gov/foia'>FOIA Requests</a></li>
      <li><a href='https://www.epa.gov/home/frequent-questions-specific-epa-programstopics'>Frequent Questions</a></li>
@@ -826,7 +824,7 @@ HTML("</div>
      <li><a class='menu-link social-flickr' href='https://www.flickr.com/photos/usepagov'>Flickr</a></li>
      <li><a class='menu-link social-instagram' href='https://www.instagram.com/epagov'>Instagram</a></li>
      </ul>
-     <p class='last-updated'>Last updated on January 31, 2019</p>
+     <p class='last-updated'>Last updated on March 20, 2019</p>
      </div>
      </div>
      </div>
