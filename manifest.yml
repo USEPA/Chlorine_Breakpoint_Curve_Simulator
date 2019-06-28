@@ -1,0 +1,4 @@
+---
+applications:
+- name: breakpoint
+  memory: 3G

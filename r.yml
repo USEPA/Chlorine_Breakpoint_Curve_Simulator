@@ -1,0 +1,10 @@
+packages:
+  - cran_mirror: https://cloud.r-project.org
+    num_threads: 4
+    packages:
+      - name: deSolve
+      - name: ggplot2
+      - name: reshape2
+      - name: scales
+      - name: shinyBS
+      - name: shinythemes
