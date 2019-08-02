@@ -1,6 +1,5 @@
 packages:
-  - cran_mirror: https://cloud.r-project.org
-    num_threads: 4
+  - cran_mirror:  https://raw.githubusercontent.com/USEPA/cflinuxfs3-CRAN/master/cflinuxfs3/src/contrib/
     packages:
       - name: deSolve
       - name: ggplot2
