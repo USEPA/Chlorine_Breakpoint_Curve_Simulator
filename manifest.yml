@@ -1,3 +1,4 @@
 ---
 applications:
 - name: breakpoint
+  memory: 768M
