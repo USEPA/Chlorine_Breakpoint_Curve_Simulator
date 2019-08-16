@@ -3,7 +3,7 @@ Chlorine Breakpoint Curve Simulator
 
 This repository is for code and documentation for the Chlorine Breakpoint Curve Simulator.
 
-This repository is released under the [MIT License](LICENSE).
+This repository is released under the [MIT License](LICENSE.md).
 
 # EPA Disclaimer
 
