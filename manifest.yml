@@ -1,4 +1,7 @@
 ---
 applications:
 - name: breakpoint
-  memory: 768M
+  memory: 500M
+  instances: 8
+  routes:
+  - route: cbcs.apps.internal
