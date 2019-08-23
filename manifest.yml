@@ -1,6 +1,6 @@
 ---
 applications:
-- name: breakpoint
+- name: cbcs
   memory: 500M
   instances: 8
   routes:
