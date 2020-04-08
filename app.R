@@ -289,6 +289,9 @@ export_data <- function(sim) {
 # Define server logic required to run simulations and produce output
 server <- function(input, output, session) {
 
+  # Set option for sticky sessions
+  options("Set-Cookie" = paste0("JSESSIONID=", session$token))
+
   #Copy Simulation A's inputs to Simulation B's inputs
   observe({
     #Take a dependency on input$AtoBIC
