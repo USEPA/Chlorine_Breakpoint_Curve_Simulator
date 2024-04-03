@@ -3,7 +3,6 @@ library(deSolve)
 library(ggplot2)
 library(reshape2)
 library(scales)
-library(shiny)
 library(shinyBS)
 library(shinythemes)
 

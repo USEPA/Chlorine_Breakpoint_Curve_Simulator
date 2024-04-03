@@ -1,0 +1,3 @@
+ignore:
+  - package:
+      location: "/opt/shiny-server/node_modules/**"
