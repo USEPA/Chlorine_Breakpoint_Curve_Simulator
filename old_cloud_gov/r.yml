@@ -1,0 +1,10 @@
+packages:
+  - cran_mirror:  https://raw.githubusercontent.com/USEPA/cflinuxfs3-CRAN/master/cflinuxfs3/
+    packages:
+      - name: deSolve
+      - name: ggplot2
+      - name: reshape2
+      - name: scales
+      - name: shiny
+      - name: shinyBS
+      - name: shinythemes

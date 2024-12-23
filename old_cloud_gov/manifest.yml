@@ -1,0 +1,7 @@
+---
+applications:
+- name: cbcs
+  memory: 500M
+  instances: 8
+  routes:
+  - route: cbcs.apps.internal
